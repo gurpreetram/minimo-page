@@ -1,0 +1,231 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.three-img {
+    text-align: center;
+    .ti-1 {
+        width: 80%;
+    }
+}
+.main-paras {
+    text-align: inherit;
+ 
+    display: flex;
+    justify-content: center;
+.paras-div {
+    width: 80%;
+    .paras1 {
+        font-style: italic;
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+    .paras2 {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+}
+}
+.share-div {
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 280px;
+    margin-bottom: 80px;
+    .para-share {
+        font-size: 1.3rem;
+        color: #e2d4d4;
+    }
+    .share-i {
+        margin: 30px 10px;
+        color: #e2d4d4;
+    }
+}
+.flex-imgdiv {
+    background: #d6d6db;
+    height: 600px;
+    padding-top: 100px;
+}
+.fl-head {
+    width: 50%;
+    color: #695959;
+    font-size: 1.5rem;
+    text-align: center;}
+.fl-div {
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+    .fd-1 {
+        margin: 30px;
+        .fd-para {
+            font-size: 2rem;
+            font-family: 'Playfair Display', serif;
+            margin-top: 20px;
+        }
+    }
+    }
+.comment-div {
+    width: 80%;
+    margin: 0 auto;
+    .comm-head {
+        font-size: 1rem;
+        color: #e2d4d4;
+        cursor: pointer;
+
+    }
+    .comm-img {
+        display: flex;
+        margin-bottom: 85px;
+        .ci-1 {
+            width: 25%;
+            border-radius: 50%;
+        }
+        .com-pahe {
+            margin-left: 50px;
+            .comm-para1 {
+                font-size: 1.3rem;
+            }
+            .comm-para {
+                font-size: 2rem;
+                font-weight: bold;
+                font-family: 'Playfair Display', serif;
+                letter-spacing: 1px;
+        }
+        .reply {
+            margin-top: 33px;
+            font-size: 1.5rem;
+            color: #e2d4d4;
+            cursor: pointer;
+        }
+    }
+    .ci-2 {
+        width: 10%;
+    }
+    }
+    .text-div {
+        width: 100%;
+        border-radius: 10px 10px;
+        outline: none;
+        font-size: 2rem;
+        border: 2px solid #e2d4d4 ;
+        margin-left: 30px;
+    }
+    p.jd-para {
+        font-size: 4rem;
+        color: white;
+        background-color: #cee4e0;
+        border-radius: 50%;
+        padding: 30px;
+        text-align: center;
+        height: 130px;
+    }
+    p.jd-para1 {
+        font-size: 4rem;
+        color: white;
+        background-color: #edeeec;
+        border-radius: 50%;
+        padding: 30px;
+        text-align: center;
+        height: 130px;
+    }
+}
+@media only screen and (max-width:1366px){
+    .main-paras .paras-div .paras2 {
+        font-size: 1rem;
+    }
+    .main-paras .paras-div .paras1 {
+        font-size: 1rem;
+    }
+    .flimg1 {
+        width: 100%;
+        height: 100%;
+    }
+    .comment-div .comm-img .ci-1 {
+        width: 10%;
+    height: 100%;
+    }
+    .comment-div .comm-img .ci-2 {
+        width: 10%;
+        height: 100%;
+    }
+    .comment-div p.jd-para {
+        font-size: 2rem;
+        padding: 20px;
+        height: 80px;
+    }
+    .comment-div p.jd-para1 {
+        font-size: 2rem;
+        padding: 20px;
+        height: 80px;
+    }
+}
+i.fa.fa-send-o {
+    transform: rotateZ(50deg);
+}
+@media only screen and (max-width:1024px){
+    .comment-div .comm-img .com-pahe .comm-para1 {
+        font-size: 1rem;
+    }
+    .comment-div .comm-img .com-pahe .reply {
+        font-size: 1rem;
+    }
+    .fl-div .fd-1 .fd-para {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:1024px){
+    .share-div .para-share {
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (max-width:768px){
+    .flex-imgdiv {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .fl-div {
+        display: block;
+    }
+    .fl-div .fd-1 .fd-para {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .sign-div .content-div input.input-div {
+        padding: 20px 50px;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:540px){
+    .comment-div .comm-img .ci-1 {
+        width: 20%;
+        height: 100%;
+    }
+    .footer-div {
+        display: block;
+    }
+    .footer-div .term-div {
+        display: block;
+        width: 100%;
+        height: 80px;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-div .icons-div {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .footer-div .term-div .t-para {
+        margin-bottom: 10px;
+    }
+    .footer-div .icons-div .t-pata1 {
+        margin-bottom: 10px;
+    }
+    .footer-div .icons-div .i-tag {
+        margin-right: 15px;
+    }
+}
